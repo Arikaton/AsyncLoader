@@ -1,0 +1,105 @@
+#ButtonHolder{
+    height: 30px;
+    width: auto;
+    background-color: #c2c2c2;
+    display: flex;
+    flex-direction: row;
+}
+
+#Container
+{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: #8a8a8a;
+}
+
+#GraphContainer{
+    width: auto;
+    overflow: hidden;
+}
+
+#GraphLabel{
+    font-size: 18;
+    margin: 5px;
+    color: black;
+}
+
+#RightPanel
+{
+    position: relative;
+    flex: 1;
+    width: auto;
+    margin: 2px;
+    background-color: #C2C2C2;
+}
+
+#LeftPanel
+{
+    background-color: #C2C2C2;
+    display: flex;
+    -unity-text-align: middle-center;
+    margin: 2px;
+    flex: 4;
+    width: auto;
+}
+
+.label-h2{
+    font-size: 18;
+}
+
+#RightPanelTop
+{
+    background-color: #C2C2C2;
+    -unity-text-align: middle-center;
+    margin-bottom: 2px;
+    display: flex;
+    flex: 3;
+}
+
+#ConfiguratorLabel{
+    margin-top: 15;
+}
+
+#StepList{
+    display: flex;
+    width: auto;
+    height: 250;
+    margin: 15;
+    background-color: #b5b5b5;
+    border-radius: 5px;
+}
+
+.stepListItem{
+    margin-left: 15;
+    margin-right: 15;
+}
+
+#RightPanelBot
+{
+    background-color: #C2C2C2;
+    -unity-text-align: middle-center;
+    display: flex;
+    flex: 1;
+}
+
+#FactoryList{
+    background-color: #C2C2C2;
+    flex-grow: 1;
+    width: auto;
+    padding: 5px;
+    display: flex;
+}
+
+#FactoryListLabel{
+    font-size: 16;
+    margin: 3px;
+}
+
+.factoryListButton{
+    background-color: #f1f1f1;
+}
+
+.unity-label{
+    color: black;
+}
